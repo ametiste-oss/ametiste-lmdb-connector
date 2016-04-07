@@ -1,0 +1,4 @@
+rootProject.name = 'ametiste-lmdb-connector'
+
+include 'lmdb-connector'
+include 'lmdb-connector-deephacks'
