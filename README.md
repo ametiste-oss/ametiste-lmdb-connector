@@ -1,6 +1,3 @@
-# ametiste-lmdb-connector
-Library to interact with LMDB database
-
 # Ametiste LMDB Connector Library
 
 ### Overview
