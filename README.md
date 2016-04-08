@@ -8,7 +8,14 @@ Connector has one implementation that uses JNI Library and contains precompiled 
 
 ### Configuration
 
-Connector can be added to project with adding dependency:
+LMDB connector provides separate API module. To add its to project include next dependency to gradle script:
+```java
+dependencies {
+   compile("org.ametiste.lib:lmdb-connector-api:${connectorVersion}")
+}
+```
+
+Concrete connector implementation adds as following:
 ```java
 dependencies {
    compile("org.ametiste.lib:lmdb-connector-deephacks:${connectorVersion}")

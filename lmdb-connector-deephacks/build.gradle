@@ -23,7 +23,7 @@ publishing {
 }
 
 dependencies {
-    compile project(":lmdb-connector")
+    compile project(":lmdb-connector-api")
 
     compile("org.deephacks.lmdbjni:lmdbjni:${deephacksLmdbVersion}")
     compile("org.deephacks.lmdbjni:lmdbjni-linux64:${deephacksLmdbVersion}")
